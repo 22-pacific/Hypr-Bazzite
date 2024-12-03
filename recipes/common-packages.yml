@@ -1,0 +1,102 @@
+type: rpm-ostree
+install:
+  # launcher
+  - rofi-wayland
+
+  # environment
+  - xorg-x11-server-Xwayland
+  - polkit
+  - lxpolkit
+  - xdg-user-dirs
+  - dbus-tools
+  - dbus-daemon
+  - wl-clipboard
+  - gnome-keyring
+  - pavucontrol
+  - playerctl
+  - qt5-qtwayland
+  - qt6-qtwayland
+  - vulkan-validation-layers
+  - vulkan-tools
+  - google-noto-emoji-fonts
+  - gnome-disk-utility
+  - wlogout
+  - gammastep
+  - geoclue2
+  - ddcutil
+  - sway
+  - waybar
+  - rofi-wayland
+  - swaybg
+  - polkit
+  - mate-polkit
+  - xdg-desktop-portal
+  - xdg-desktop-portal-gtk
+  - xdg-desktop-portal-wlr
+  - xdg-user-dirs
+
+  # sound
+  - wireplumber
+  - pipewire
+  - pamixer
+  - pipewire-alsa
+  - pamixer
+  - pavucontrol
+
+  # networking
+  - network-manager-applet
+  - NetworkManager-tui
+  - network-manager-applet
+  - NetworkManager-openvpn
+  - NetworkManager-openconnect
+  - bluez
+  - bluez-tools
+  - blueman
+
+  # file manager
+  - thunar
+  - thunar-archive-plugin
+  - thunar-volman
+  - xarchiver
+  - imv
+  - p7zip
+  - unrar-free
+
+  # screenshot
+  - slurp
+  - grim
+  - swappy
+  - imv
+  - mpv
+
+  # display
+  - wlr-randr
+  - wlsunset
+  - brightnessctl
+  - swaylock
+  - swayidle
+  - kanshi
+  - light
+  - gvfs
+  - gvfs-mtp
+
+  # terminal
+  - alacritty
+  - kitty
+  - fish
+
+  # notifications
+  - dunst
+
+  # theme and GUI
+  - adwaita-qt5
+  - qt5ct
+  - qt6ct
+  - gtk-murrine-engine
+  - kvantum
+  - fontawesome-fonts-all
+  - gnome-themes-extra
+  - gnome-icon-theme
+  - paper-icon-theme
+  - breeze-icon-theme
+  - papirus-icon-theme
